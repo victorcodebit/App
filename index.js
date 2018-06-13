@@ -1,4 +1,7 @@
-class HelloMessage extends React.Component {
+import React, { Component } from 'React';
+import ReactDOM from 'ReactDOM';
+
+class HelloMessage extends Component {
   render() {
     return (
       <div>
